@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RWA x Agent · Progress Presentation Alt</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="presentation-clean progress-alt">
+    <aside class="rail" aria-label="Slide progress">
+      <a class="rail-dot is-active" href="#slide-1" aria-label="Slide 1"></a>
+      <a class="rail-dot" href="#slide-2" aria-label="Slide 2"></a>
+      <a class="rail-dot" href="#slide-3" aria-label="Slide 3"></a>
+      <a class="rail-dot" href="#slide-4" aria-label="Slide 4"></a>
+      <a class="rail-dot" href="#slide-5" aria-label="Slide 5"></a>
+      <a class="rail-dot" href="#slide-6" aria-label="Slide 6"></a>
+      <a class="rail-dot" href="#slide-7" aria-label="Slide 7"></a>
+      <a class="rail-dot" href="#slide-8" aria-label="Slide 8"></a>
+      <a class="rail-dot" href="#slide-9" aria-label="Slide 9"></a>
+      <a class="rail-dot" href="#slide-10" aria-label="Slide 10"></a>
+      <a class="rail-dot" href="#slide-11" aria-label="Slide 11"></a>
+      <a class="rail-dot" href="#slide-12" aria-label="Slide 12"></a>
+      <a class="rail-dot" href="#slide-13" aria-label="Slide 13"></a>
+    </aside>
+
+    <main class="deck">
+      <section class="slide light alt-cover" id="slide-1" data-slide="01">
+        <div class="alt-stage">
+          <div class="alt-cover-title">
+            <p>개인 진행 공유</p>
+            <h1>RWA x AI Agent</h1>
+          </div>
+          <div class="alt-cover-footer">
+            <div class="alt-cover-agenda" aria-label="오늘 공유할 내용">
+              <div><span>01</span><strong>목표와 alignment</strong></div>
+              <div><span>02</span><strong>지금까지 본 것</strong></div>
+              <div><span>03</span><strong>프로젝트 - 실험 계획</strong></div>
+              <div><span>04</span><strong>조직 기여 방식</strong></div>
+            </div>
+            <div class="alt-cover-author">RWA팀 조수민</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide light" id="slide-2" data-slide="02">
+        <div class="slide-grid two-up">
+          <div class="copy">
+            <p class="eyebrow">Goal / Alignment</p>
+            <h2>추측보다 실험과 관찰 쌓기</h2>
+            <p class="lead">
+              개인 목표는 RWA와 agent가 만나는 지점에서 실제로 쓸 수 있는 도구를 만들고 실험하는 것입니다.
+            </p>
+          </div>
+
+          <div class="definition-panel">
+            <div class="definition-line">
+              <span>개인 목표</span>
+              <strong>작은 도구를 만들고 사용 흐름을 관찰하면서 개발 방향을 정리합니다.</strong>
+            </div>
+            <div class="definition-line">
+              <span>팀과 연결</span>
+              <strong>RWA 시장을 agent가 읽고 설명하는 방식에서 바라봅니다.</strong>
+            </div>
+            <div class="definition-line">
+              <span>기여 방식</span>
+              <strong>실험 결과, 기술 제약, 데이터 구조를 팀 논의에 공유합니다.</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide soft" id="slide-3" data-slide="03">
+        <div class="alt-stage alt-timeline-layout">
+          <div class="alt-slide-head">
+            <p class="eyebrow">Progress</p>
+            <h2>질문을 기준으로 리서치와 빌딩을 이어가기</h2>
+            <p class="lead">
+              초기 발표는 팀장님이 제시한 질문에서 출발했습니다. 이후에는 팀 회의와 개인 리서치를 병행했습니다.
+            </p>
+          </div>
+          <div class="alt-timeline">
+            <article>
+              <span>Start</span>
+              <h3>질문 기반 발표</h3>
+              <p>팀장님이 제시한 질문을 바탕으로 초기 발표를 진행했습니다.</p>
+            </article>
+            <article>
+              <span>Observe</span>
+              <h3>팀 회의 참여</h3>
+              <p>RWA 논의가 기술, 유통, 규제, 투자자 접근 조건을 함께 다루는 것을 봤습니다.</p>
+            </article>
+            <article>
+              <span>Research</span>
+              <h3>사례 관찰</h3>
+              <p>Coinbase, Centrifuge, Ondo 등 사례를 보며 agent 관점의 문제를 정리했습니다.</p>
+            </article>
+            <article>
+              <span>Build</span>
+              <h3>도구 방향 정리</h3>
+              <p>RWA agent가 읽어야 할 정보 구조와 안전한 경계를 중심에 두었습니다.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide light" id="slide-4" data-slide="04">
+        <div class="slide-grid compact">
+          <div class="copy">
+            <p class="eyebrow">Research 1-2</p>
+            <h2>금융 앱 통합과 단순 중개의 한계</h2>
+            <p class="lead">
+              RWA는 기존 금융 앱 안으로 들어갈 가능성이 크고, 단순 거래 중개만으로는 차별화가 어려워질 수 있습니다.
+            </p>
+          </div>
+
+          <div class="two-card-grid">
+            <article class="feature-card">
+              <span class="card-index">01</span>
+              <h3>금융 앱의 통합</h3>
+              <p>
+                주식, 채권, 코인, 토큰증권이 하나의 앱에서 함께 다뤄질 수 있습니다. 개발자는 여러 자산군을 같은 인터페이스에서 다루는 구조를 고민해야 합니다.
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="card-index">02</span>
+              <h3>단순 중개의 한계</h3>
+              <p>
+                전통 금융 기관이 낮은 수수료와 기존 고객 기반으로 진입하면, 단순 중개 모델은 약해질 수 있습니다. 정보 구조와 유통 인프라가 더 중요해집니다.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide soft" id="slide-5" data-slide="05">
+        <div class="slide-grid compact">
+          <div class="copy">
+            <p class="eyebrow">Research 3-4</p>
+            <h2>KYC와 오프체인 권리 구조</h2>
+            <p class="lead">
+              RWA는 permissionless DeFi와 다르게 신원 확인과 오프체인 권리 관리가 핵심 조건으로 붙습니다.
+            </p>
+          </div>
+
+          <div class="two-card-grid">
+            <article class="feature-card">
+              <span class="card-index">03</span>
+              <h3>KYC와 Permissioned DeFi</h3>
+              <p>
+                RWA는 익명 사용자에게 자유롭게 판매되기 어렵습니다. agent는 실제 KYC를 판단하지 않고, 가정된 조건에서 남는 허들을 설명해야 합니다.
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="card-index">04</span>
+              <h3>오프체인 권리의 동기화</h3>
+              <p>
+                배당, 의결권, 소각, 명의 변경, 주주명부 같은 권리는 온체인 상태와 맞아야 합니다. 컨트랙트 정보만으로는 충분하지 않습니다.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide dark alt-roadmap-title" id="slide-6" data-slide="06">
+        <div class="alt-stage alt-roadmap-title-inner">
+          <p class="eyebrow">Next</p>
+          <h2>Roadmap</h2>
+        </div>
+      </section>
+
+      <section class="slide dark" id="slide-7" data-slide="07">
+        <div class="alt-stage alt-research-map">
+          <div class="alt-slide-head on-dark">
+            <p class="eyebrow">Roadmap</p>
+            <h2>Coinbase AgentKit에 기능 더하기</h2>
+            <p class="lead">
+              Coinbase AgentKit 위에서 RWA agent가 어디서 흔들리는지 봅니다.
+            </p>
+          </div>
+          <div class="alt-research-rings">
+            <article>
+              <span>01</span>
+              <h3>Policy / Guardrail</h3>
+              <p>컴플라이언스 위반 요청을 어떻게 차단하거나 보류하는지 관찰합니다.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Intent / Solver</h3>
+              <p>RWA 특유의 eligibility 조건부 의도를 action으로 표현할 수 있는지 봅니다.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Action / Wallet Log</h3>
+              <p>agent의 행동을 사후에 재구성할 수 있을 만큼 기록합니다.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide light" id="slide-8" data-slide="08">
+        <div class="alt-stage alt-code-spread">
+          <div class="alt-code-panel">
+            <pre><code>                  Agent runtime
+                       │
+                       │ tool_call(name, args)
+                       ▼
+              ┌──────────────────┐
+              │ [추가 구현] Hook A│
+              │ action-level     │
+              │ policy           │
+              └────────┬─────────┘
+                       │ allow
+                       ▼
+              ┌──────────────────┐
+              │  ActionProvider  │
+              │  method body     │
+              └────────┬─────────┘
+                       │ wallet.sendTx(...)
+                       ▼
+              ┌──────────────────┐
+              │ [추가 구현] Hook B│
+              │ wallet-level     │
+              │ policy           │
+              └────────┬─────────┘
+                       │ allow
+                       ▼
+              ┌──────────────────┐
+              │ WalletProvider   │
+              │ testnet only     │
+              └────────┬─────────┘
+                       ▼
+                   Chain RPC</code></pre>
+          </div>
+          <div class="alt-side-brief">
+            <p class="eyebrow">Topic 1</p>
+            <h2>Agent의 의도와 실행을 두 번 검사합니다</h2>
+            <p>"OUSG 10만 달러어치 사줘" 같은 요청에서 정책을 지키는지 봅니다.</p>
+            <div class="alt-mini-table">
+              <div><span>구현</span><strong>Hook A/B, YAML 정책, 결정 로그</strong></div>
+              <div><span>관찰</span><strong>deny 이후 환각, 우회 요청, false positive/negative</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide soft" id="slide-9" data-slide="09">
+        <div class="alt-stage alt-code-spread reverse">
+          <div class="alt-code-panel">
+            <pre><code>              사용자 자연어 입력
+                    │
+                    ▼
+              LLM (tool 선택)
+                    │
+                    ▼
+       ┌────────────────────────────────────────┐
+       │ AgentKit: actionProviders 배열         │
+       │                                        │
+       │  DefiLlama ActionProvider   (기존)     │
+       │  Enso ActionProvider        (기존)     │
+       │  ERC20 / Wallet             (기존)     │
+       │                                        │
+       │  [추가 구현] RwaDataActionProvider     │
+       │   - list_rwa_protocols                │
+       │   - get_rwa_protocol_detail           │
+       │   - check_erc3643_eligibility         │
+       │                                        │
+       │  [추가 구현] RwaIntentActionProvider   │
+       │   - find_eligible_rwa                 │
+       │   - plan_rwa_acquisition              │
+       └────────────────────────────────────────┘
+                    │
+                    ▼
+       DefiLlama API / Enso API / Viem RPC</code></pre>
+          </div>
+          <div class="alt-side-brief">
+            <p class="eyebrow">Topic 2</p>
+            <h2>RWA 특유의 의도를 action으로 표현합니다</h2>
+            <p>수익률, 보유 가능성, 자격 조건이 함께 들어간 요청을 다룹니다.</p>
+            <div class="alt-mini-table">
+              <div><span>구현</span><strong>RwaDataActionProvider, RwaIntentActionProvider</strong></div>
+              <div><span>관찰</span><strong>새 action 사용 여부, 기존 tool 조합과의 차이</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide light" id="slide-10" data-slide="10">
+        <div class="alt-stage alt-code-spread">
+          <div class="alt-code-panel compact-code">
+            <pre><code>        Agent runtime
+              │ tool_call
+              ▼
+       ┌──────────────────────┐
+       │ AgentKit dispatcher  │
+       └──────────┬───────────┘
+                  ▼
+       ┌──────────────────────┐
+       │ [추가 구현]          │─────┐
+       │ Action middleware    │     │
+       └──────────┬───────────┘     │
+                  ▼                 │
+            ActionProvider          │ append
+                  │ wallet.sendTx   │
+                  ▼                 ▼
+       ┌──────────────────────┐  events.jsonl
+       │ [추가 구현]          │     ▲
+       │ Wallet middleware    │─────┤
+       └──────────┬───────────┘     │
+                  ▼                 │
+             Testnet RPC            │
+                  ▼                 │
+       ┌──────────────────────┐     │
+       │ [추가 구현]          │─────┘
+       │ Tx outcome poller    │
+       └──────────────────────┘</code></pre>
+          </div>
+          <div class="alt-side-brief">
+            <p class="eyebrow">Topic 3</p>
+            <h2>Agent의 행동을 사후에 재구성합니다</h2>
+            <p>답변뿐 아니라 action과 wallet 호출 기록이 남아야 합니다.</p>
+            <div class="alt-event-strip">
+              <span>action_called</span>
+              <span>action_result</span>
+              <span>wallet_signed</span>
+              <span>tx_submitted</span>
+              <span>tx_mined</span>
+              <span>tx_failed</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide soft" id="slide-11" data-slide="11">
+        <div class="alt-stage alt-month-layout">
+          <div class="alt-slide-head">
+            <p class="eyebrow">Two-month Plan</p>
+            <h2>구현보다 관찰 가능한 로그를 먼저 만듭니다</h2>
+            <p class="lead">첫 달에는 구조를 만들고, 두 번째 달에는 반복 실행과 결과 정리에 집중합니다.</p>
+          </div>
+          <div class="alt-month-track">
+            <article>
+              <span>Month 1</span>
+              <h3>실험 환경과 구현</h3>
+              <p>AgentKit + LangChain baseline, testnet wallet, logging middleware, Policy Hook A/B, RWA ActionProvider 최소 버전.</p>
+            </article>
+            <article>
+              <span>Month 2</span>
+              <h3>반복 실험과 정리</h3>
+              <p>같은 질문 반복 실행, jsonl 로그 정리, tool call sequence 비교, 실패 패턴 추출, 리포트 작성.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide light" id="slide-12" data-slide="12">
+        <div class="alt-stage alt-output-layout">
+          <div class="alt-output-title">
+            <p class="eyebrow">Output</p>
+            <h2>무엇을 만들지는 데이터로 결정합니다</h2>
+            <p>
+              두 달 동안 쌓은 로그와 리포트를 보고, 어떤 layer를 더 깊게 볼지 정합니다.
+            </p>
+          </div>
+          <div class="alt-output-grid">
+            <article class="wide"><span>결과물</span><strong>반복 실험 로그, 실패 패턴, 재현 가능한 repo, 실험 과정과 관찰을 정리한 리포트</strong></article>
+            <article><span>Policy</span><strong>컴플라이언스 우회나 위험 요청 차단이 가장 많이 깨지면, policy engine 쪽을 더 깊게 봅니다.</strong></article>
+            <article><span>Intent</span><strong>RWA 조건부 의도를 LLM이 잘 표현하지 못하면, RWA Intent ActionProvider를 더 구체화합니다.</strong></article>
+            <article><span>Audit</span><strong>행동 재구성이 가장 가치 있으면, action과 wallet 호출 기록 layer를 확장합니다.</strong></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide dark" id="slide-13" data-slide="13">
+        <div class="alt-stage alt-closing-layout">
+          <div>
+            <p class="eyebrow">Contribution</p>
+            <h2>작은 결과물을 꾸준히 남기기</h2>
+          </div>
+          <div class="alt-closing-lines">
+            <div><span>팀 내부</span><p>실험 결과, 기술 제약, agent 관점의 RWA 데이터 구조를 공유합니다.</p></div>
+            <div><span>팀 외부</span><p>온라인 리서치 콘텐츠에 기여하고, 가능하면 해커톤에도 참가하고 싶습니다.</p></div>
+            <div><span>마무리</span><p>말로 가능성을 설명하기보다, 작게 만들어 보고 관찰한 내용을 공유하겠습니다.</p></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
