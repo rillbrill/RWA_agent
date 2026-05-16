@@ -21,6 +21,7 @@
       <a class="rail-dot" href="#slide-11" aria-label="Slide 11"></a>
       <a class="rail-dot" href="#slide-12" aria-label="Slide 12"></a>
       <a class="rail-dot" href="#slide-13" aria-label="Slide 13"></a>
+      <a class="rail-dot" href="#slide-14" aria-label="Slide 14"></a>
     </aside>
 
     <main class="deck">
@@ -107,25 +108,25 @@
         <div class="slide-grid compact">
           <div class="copy">
             <p class="eyebrow">Research 1-2</p>
-            <h2>금융 앱 통합과 단순 중개의 한계</h2>
+            <h2>슈퍼앱 흐름과 유통 인프라</h2>
             <p class="lead">
-              RWA는 기존 금융 앱 안으로 들어갈 가능성이 크고, 단순 거래 중개만으로는 차별화가 어려워질 수 있습니다.
+              RWA를 보며 자산군 통합 흐름과 단순 중개 모델의 한계를 함께 보게 됐습니다. 개발 관점에서는 여러 자산을 한 구조에서 처리하는 아키텍처가 중요해집니다.
             </p>
           </div>
 
           <div class="two-card-grid">
             <article class="feature-card">
               <span class="card-index">01</span>
-              <h3>금융 앱의 통합</h3>
+              <h3>슈퍼앱 흐름</h3>
               <p>
-                주식, 채권, 코인, 토큰증권이 하나의 앱에서 함께 다뤄질 수 있습니다. 개발자는 여러 자산군을 같은 인터페이스에서 다루는 구조를 고민해야 합니다.
+                주식, 채권, 코인, 향후 RWA나 토큰증권까지 하나의 앱 안에서 조회하고 거래하는 흐름이 커질 수 있습니다. Morgan Stanley가 E*TRADE를 통해 주요 crypto 거래를 추진하는 사례처럼, 자산군의 경계가 사용자 화면에서는 점점 좁아지고 있습니다.
               </p>
             </article>
             <article class="feature-card">
               <span class="card-index">02</span>
-              <h3>단순 중개의 한계</h3>
+              <h3>단순 중개만으로는 부족함</h3>
               <p>
-                전통 금융 기관이 낮은 수수료와 기존 고객 기반으로 진입하면, 단순 중개 모델은 약해질 수 있습니다. 정보 구조와 유통 인프라가 더 중요해집니다.
+                대형 금융사가 낮은 수수료와 기존 고객 기반으로 들어오면, 단순 거래 수수료 모델만으로는 차별화가 어렵습니다. Coinbase처럼 직접 발행 리스크를 지기보다 Centrifuge 같은 인프라 기업과 협업하고, 유통과 접근 인프라에 집중하는 전략을 볼 필요가 있습니다.
               </p>
             </article>
           </div>
@@ -136,25 +137,26 @@
         <div class="slide-grid compact">
           <div class="copy">
             <p class="eyebrow">Research 3-4</p>
-            <h2>KYC와 오프체인 권리 구조</h2>
+            <h2>권리 동기화와 반복 매출 구조</h2>
             <p class="lead">
-              RWA는 permissionless DeFi와 다르게 신원 확인과 오프체인 권리 관리가 핵심 조건으로 붙습니다.
+              RWA에서는 토큰 발행 자체보다, 오프체인 권리와 운영 매출 구조를 온체인 흐름에 맞추는 일이 더 어려운 문제로 보였습니다.
             </p>
           </div>
 
           <div class="two-card-grid">
             <article class="feature-card">
               <span class="card-index">03</span>
-              <h3>KYC와 Permissioned DeFi</h3>
+              <h3>오프체인 권리 구조를 온체인에 이식하는 고통</h3>
               <p>
-                RWA는 익명 사용자에게 자유롭게 판매되기 어렵습니다. agent는 실제 KYC를 판단하지 않고, 가정된 조건에서 남는 허들을 설명해야 합니다.
+                Bullish가 주식·채권 명의개서 기업 Equiniti를 인수한 사례를 보며, RWA의 난제는 토큰 민팅보다 배당, 의결권, 소각 같은 권리 관계를 온체인과 실시간 동기화하는 데 있다고 봤습니다.
               </p>
+              <p class="source-note">참고: 디지털투데이, 2026.05.05</p>
             </article>
             <article class="feature-card">
               <span class="card-index">04</span>
-              <h3>오프체인 권리의 동기화</h3>
+              <h3>매출의 퀄리티 다변화</h3>
               <p>
-                배당, 의결권, 소각, 명의 변경, 주주명부 같은 권리는 온체인 상태와 맞아야 합니다. 컨트랙트 정보만으로는 충분하지 않습니다.
+                거래량에 따라 흔들리는 수수료 매출만으로는 한계가 있습니다. 주주명부, 자산 관리, 권리 처리처럼 지속적이고 반복적인 구독형 온체인 매출 구조가 기업 가치 평가에서 중요해질 수 있습니다.
               </p>
             </article>
           </div>
@@ -168,39 +170,82 @@
         </div>
       </section>
 
-      <section class="slide dark" id="slide-7" data-slide="07">
+      <section class="slide light agentkit-intro" id="slide-7" data-slide="07">
+        <div class="slide-grid two-up">
+          <div class="copy">
+            <p class="eyebrow">Coinbase AgentKit</p>
+            <h2>Coinbase AgentKit: AI agent가 onchain action을 실행하는 툴킷</h2>
+            <p class="lead">
+              AgentKit은 LLM 기반 agent에 wallet과 onchain action을 붙이는 오픈소스 프레임워크입니다. 텍스트 응답을 넘어, agent가 블록체인 작업을 호출할 수 있게 합니다.
+            </p>
+          </div>
+
+          <div class="agentkit-board">
+            <article>
+              <span>Core</span>
+              <strong>AgentKit Core</strong>
+              <p>agent runtime과 action provider를 연결하는 기본 구조입니다.</p>
+            </article>
+            <article>
+              <span>Wallet</span>
+              <strong>Wallet Providers</strong>
+              <p>agent가 testnet wallet을 통해 서명과 전송 흐름을 가질 수 있게 합니다.</p>
+            </article>
+            <article>
+              <span>Actions</span>
+              <strong>Action Providers</strong>
+              <p>토큰 조회, 전송, 스왑, NFT 발행, DeFi 호출 같은 onchain 작업 단위입니다.</p>
+            </article>
+            <article>
+              <span>Extensions</span>
+              <strong>Framework Extensions</strong>
+              <p>LangChain 같은 agent framework와 연결해 tool처럼 사용할 수 있게 합니다.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide dark" id="slide-8" data-slide="08">
         <div class="alt-stage alt-research-map">
           <div class="alt-slide-head on-dark">
             <p class="eyebrow">Roadmap</p>
             <h2>Coinbase AgentKit에 기능 더하기</h2>
             <p class="lead">
-              Coinbase AgentKit 위에서 RWA agent가 어디서 흔들리는지 봅니다.
+              AgentKit은 agent에게 wallet과 onchain action을 연결해줍니다. 이번 프로젝트에서는 그 위에 RWA를 다룰 때 필요한 세 가지 layer를 추가하고, 기존 구조가 어디에서 부족해지는지 확인합니다.
             </p>
           </div>
           <div class="alt-research-rings">
             <article>
               <span>01</span>
               <h3>Policy / Guardrail</h3>
-              <p>컴플라이언스 위반 요청을 어떻게 차단하거나 보류하는지 관찰합니다.</p>
+              <p class="card-subtitle">컴플라이언스 위반 요청이 들어왔을 때 agent가 어떻게 반응하는지 봅니다.</p>
+              <p><strong>Why</strong> RWA는 permissionless 자산처럼 바로 실행하기 어렵습니다. 자격, 관할권, 금액, 목적지 확인이 빠지면 컴플라이언스 위반 요청도 실행 흐름에 들어갈 수 있습니다.</p>
+              <p><strong>구현</strong> action 호출 전과 wallet 서명 전 두 지점에 policy hook을 두고, 요청을 allow / deny / pending으로 나눕니다.</p>
             </article>
             <article>
               <span>02</span>
               <h3>Intent / Solver</h3>
-              <p>RWA 특유의 eligibility 조건부 의도를 action으로 표현할 수 있는지 봅니다.</p>
+              <p class="card-subtitle">자격 조건이 붙은 RWA 특유의 의도를 action으로 표현할 수 있는지 봅니다.</p>
+              <p><strong>Why</strong> RWA 요청은 단순 swap이나 yield 조회가 아닙니다. "수익률이 높은가"와 "내가 받을 수 있는가"가 동시에 들어가지만, 기존 action은 이 의도를 직접 표현하지 못합니다.</p>
+              <p><strong>구현</strong> RWA 후보 조회, eligibility 확인, routing 계획을 묶은 action을 추가하고 LLM이 이 도구를 선택하는지 봅니다.</p>
             </article>
             <article>
               <span>03</span>
               <h3>Action / Wallet Log</h3>
-              <p>agent의 행동을 사후에 재구성할 수 있을 만큼 기록합니다.</p>
+              <p class="card-subtitle">agent의 행동을 사후에 재구성할 수 있도록 기록합니다.</p>
+              <p><strong>Why</strong> RWA에서는 최종 답변만으로 충분하지 않습니다. 어떤 tool을 호출했고 어떤 wallet 행동으로 이어졌는지 남지 않으면 사후 검토와 감사가 어렵습니다.</p>
+              <p><strong>구현</strong> tool 호출, wallet 서명, tx 결과를 같은 run 안에 기록해 agent가 거친 행동 흐름을 재구성합니다.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="slide light" id="slide-8" data-slide="08">
+      <section class="slide light" id="slide-9" data-slide="09">
         <div class="alt-stage alt-code-spread">
-          <div class="alt-code-panel">
-            <pre><code>                  Agent runtime
+          <div class="alt-code-column">
+            <p class="diagram-caption">컴플라이언스 위반 요청이 들어왔을 때 agent가 어떻게 반응하는지 봅니다.</p>
+            <div class="alt-code-panel">
+              <pre><code>                  Agent runtime
                        │
                        │ tool_call(name, args)
                        ▼
@@ -230,23 +275,26 @@
               └────────┬─────────┘
                        ▼
                    Chain RPC</code></pre>
+            </div>
           </div>
           <div class="alt-side-brief">
             <p class="eyebrow">Topic 1</p>
             <h2>Agent의 의도와 실행을 두 번 검사합니다</h2>
-            <p>"OUSG 10만 달러어치 사줘" 같은 요청에서 정책을 지키는지 봅니다.</p>
+            <p>RWA agent는 요청을 바로 실행하기 전에 사용자가 받을 수 있는 자산인지, 금액과 목적지가 정책상 허용되는지 확인해야 합니다. 그래서 action 호출 전과 wallet 서명 전 두 지점에서 같은 요청을 다시 봅니다.</p>
             <div class="alt-mini-table">
-              <div><span>구현</span><strong>Hook A/B, YAML 정책, 결정 로그</strong></div>
-              <div><span>관찰</span><strong>deny 이후 환각, 우회 요청, false positive/negative</strong></div>
+              <div><span>구현</span><strong>Hook A는 의도 단계, Hook B는 실제 tx 단계 검사. 결정은 allow, deny, pending으로 기록</strong></div>
+              <div><span>관찰</span><strong>우회 요청 대응, deny 이후 환각, 정상 요청 차단과 위험 요청 통과 여부</strong></div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="slide soft" id="slide-9" data-slide="09">
+      <section class="slide soft" id="slide-10" data-slide="10">
         <div class="alt-stage alt-code-spread reverse">
-          <div class="alt-code-panel">
-            <pre><code>              사용자 자연어 입력
+          <div class="alt-code-column">
+            <p class="diagram-caption">자격 조건이 붙은 RWA 특유의 의도를 action으로 표현할 수 있는지 봅니다.</p>
+            <div class="alt-code-panel">
+              <pre><code>              사용자 자연어 입력
                     │
                     ▼
               LLM (tool 선택)
@@ -271,23 +319,26 @@
                     │
                     ▼
        DefiLlama API / Enso API / Viem RPC</code></pre>
+            </div>
           </div>
           <div class="alt-side-brief">
             <p class="eyebrow">Topic 2</p>
             <h2>RWA 특유의 의도를 action으로 표현합니다</h2>
-            <p>수익률, 보유 가능성, 자격 조건이 함께 들어간 요청을 다룹니다.</p>
+            <p>RWA 관련 질문은 "수익률이 높은가"와 "내가 받을 수 있는가"가 함께 들어갑니다. 이 의도는 단순 swap이나 단순 yield 조회로 표현하기 어렵기 때문에, RWA 후보 조회와 eligibility 확인을 하나의 흐름으로 묶어봅니다.</p>
             <div class="alt-mini-table">
-              <div><span>구현</span><strong>RwaDataActionProvider, RwaIntentActionProvider</strong></div>
-              <div><span>관찰</span><strong>새 action 사용 여부, 기존 tool 조합과의 차이</strong></div>
+              <div><span>구현</span><strong>RwaDataActionProvider + RwaIntentActionProvider로 후보 조회, 자격 확인, Enso routing 연결</strong></div>
+              <div><span>관찰</span><strong>새 RWA action을 쓰는지, 기존 tool 조합이 더 나은지 비교</strong></div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="slide light" id="slide-10" data-slide="10">
+      <section class="slide light" id="slide-11" data-slide="11">
         <div class="alt-stage alt-code-spread">
-          <div class="alt-code-panel compact-code">
-            <pre><code>        Agent runtime
+          <div class="alt-code-column">
+            <p class="diagram-caption">agent의 행동을 사후에 재구성할 수 있도록 기록합니다.</p>
+            <div class="alt-code-panel compact-code">
+              <pre><code>        Agent runtime
               │ tool_call
               ▼
        ┌──────────────────────┐
@@ -313,24 +364,21 @@
        │ [추가 구현]          │─────┘
        │ Tx outcome poller    │
        └──────────────────────┘</code></pre>
+            </div>
           </div>
           <div class="alt-side-brief">
             <p class="eyebrow">Topic 3</p>
             <h2>Agent의 행동을 사후에 재구성합니다</h2>
-            <p>답변뿐 아니라 action과 wallet 호출 기록이 남아야 합니다.</p>
-            <div class="alt-event-strip">
-              <span>action_called</span>
-              <span>action_result</span>
-              <span>wallet_signed</span>
-              <span>tx_submitted</span>
-              <span>tx_mined</span>
-              <span>tx_failed</span>
+            <p>RWA에서는 최종 답변뿐 아니라 agent가 어떤 행동을 거쳤는지 남겨야 합니다. tool 호출, wallet 서명, tx 결과를 같은 run 안에 기록합니다.</p>
+            <div class="alt-mini-table">
+              <div><span>기록</span><strong>action 호출, wallet 서명, tx 제출과 결과를 events.jsonl에 시간순 저장</strong></div>
+              <div><span>관찰</span><strong>같은 질문 3회 반복 시 행동 재구성과 tool call sequence 차이 확인</strong></div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="slide soft" id="slide-11" data-slide="11">
+      <section class="slide soft" id="slide-12" data-slide="12">
         <div class="alt-stage alt-month-layout">
           <div class="alt-slide-head">
             <p class="eyebrow">Two-month Plan</p>
@@ -352,7 +400,7 @@
         </div>
       </section>
 
-      <section class="slide light" id="slide-12" data-slide="12">
+      <section class="slide light" id="slide-13" data-slide="13">
         <div class="alt-stage alt-output-layout">
           <div class="alt-output-title">
             <p class="eyebrow">Output</p>
@@ -370,7 +418,7 @@
         </div>
       </section>
 
-      <section class="slide dark" id="slide-13" data-slide="13">
+      <section class="slide dark" id="slide-14" data-slide="14">
         <div class="alt-stage alt-closing-layout">
           <div>
             <p class="eyebrow">Contribution</p>
